@@ -6,52 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07097fb9-770c-49de-b38c-224b649f6430" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Kevin_Liu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liujin/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liujin/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liujin/domain/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liujin/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liujin/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liujin/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liujin/test/UserDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liujin/utils/BeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liujin/utils/CookieUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liujin/utils/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liujin/web/servlet/AddUserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liujin/web/servlet/CheckCodeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liujin/web/servlet/DelUserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liujin/web/servlet/ListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/liujin/web/servlet/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery-2.1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb_Core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb_Core/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb_Core/out/artifacts/loginAndRegister_war_exploded/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb_Core/out/artifacts/loginAndRegister_war_exploded/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb_Core/out/artifacts/loginAndRegister_war_exploded/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb_Core/out/artifacts/loginAndRegister_war_exploded/register.html" afterDir="false" />
-    </list>
+    <list default="true" id="07097fb9-770c-49de-b38c-224b649f6430" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -539,7 +494,7 @@
       <workItem from="1563871482484" duration="2962000" />
       <workItem from="1563930878443" duration="1208000" />
       <workItem from="1563933433373" duration="12165000" />
-      <workItem from="1563954294990" duration="16580000" />
+      <workItem from="1563954294990" duration="17176000" />
     </task>
     <servers />
   </component>
@@ -564,7 +519,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42634000" />
+    <option name="totallyTimeSpent" value="43230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
