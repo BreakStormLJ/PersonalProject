@@ -33,4 +33,18 @@ public interface UserDao {
      * @param id
      */
     public void delUser(int id);
+
+    /**
+     * 通过Id查找用户
+     * @param id
+     * @return
+     */
+    public User findUserById(int id);
+
+    /**
+     * 修改用户信息
+     * @param user
+     * @return
+     */
+    public void updateUser(User user);
 }

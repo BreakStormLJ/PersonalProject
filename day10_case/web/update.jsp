@@ -6,7 +6,6 @@
 <!-- 网页使用的语言 -->
 <html lang="zh-CN">
 <head>
-   <%-- <base href="<%=basePath%>"/>--%>
     <!-- 指定字符集 -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,40 +20,66 @@
 <body>
 <div class="container" style="width: 400px;">
     <h3 style="text-align: center;">修改联系人</h3>
-    <form action="${pageContext.request.contextPath}/" method="post">
+    <form action="${pageContext.request.contextPath}/updateUserServlet" method="post">
+        <!--  隐藏域 提交id-->
+        <input type="hidden" name="id" value="${user.id}">
+
         <div class="form-group">
             <label for="name">姓名：</label>
-            <input type="text" class="form-control" id="name" name="name"  readonly="readonly" placeholder="请输入姓名" />
+            <input type="text" class="form-control" id="name" name="name"  value="${user.name}" readonly="readonly" placeholder="请输入姓名" />
         </div>
 
         <div class="form-group">
             <label>性别：</label>
-            <input type="radio" name="sex" value="男"  />男
-            <input type="radio" name="sex" value="女"  />女
+            <c:if test="${user.gender == '男'}">
+                <input type="radio" name="gender" value="男" checked />男
+                <input type="radio" name="gender" value="女"  />女
+            </c:if>
+
+            <c:if test="${user.gender == '女'}">
+                <input type="radio" name="gender" value="男"  />男
+                <input type="radio" name="gender" value="女" checked  />女
+            </c:if>
+
+
         </div>
 
         <div class="form-group">
             <label for="age">年龄：</label>
-            <input type="text" class="form-control" id="age"  name="age" placeholder="请输入年龄" />
+            <input type="text" class="form-control" value="${user.age}" id="age"  name="age" placeholder="请输入年龄" />
         </div>
 
         <div class="form-group">
             <label for="address">籍贯：</label>
-            <select name="address" class="form-control" >
-                <option value="广东">广东</option>
-                <option value="广西">广西</option>
-                <option value="湖南">湖南</option>
+            <select name="address" id="address" class="form-control" >
+                <c:if test="${user.address == '陕西'}">
+                    <option value="陕西" selected>陕西</option>
+                    <option value="北京">北京</option>
+                    <option value="上海">上海</option>
+                </c:if>
+
+                <c:if test="${user.address == '北京'}">
+                    <option value="陕西" >陕西</option>
+                    <option value="北京" selected>北京</option>
+                    <option value="上海">上海</option>
+                </c:if>
+
+                <c:if test="${user.address == '上海'}">
+                    <option value="陕西" >陕西</option>
+                    <option value="北京">北京</option>
+                    <option value="上海" selected>上海</option>
+                </c:if>
             </select>
         </div>
 
         <div class="form-group">
             <label for="qq">QQ：</label>
-            <input type="text" class="form-control" name="qq" placeholder="请输入QQ号码"/>
+            <input type="text" id="qq" class="form-control" value="${user.qq}" name="qq" placeholder="请输入QQ号码"/>
         </div>
 
         <div class="form-group">
             <label for="email">Email：</label>
-            <input type="text" class="form-control" name="email" placeholder="请输入邮箱地址"/>
+            <input type="text" id="email" class="form-control" value="${user.email}" name="email" placeholder="请输入邮箱地址"/>
         </div>
 
         <div class="form-group" style="text-align: center">

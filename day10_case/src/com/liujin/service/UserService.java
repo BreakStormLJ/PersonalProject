@@ -13,4 +13,8 @@ public interface UserService {
     public int addUser(User user);
 
     public void delUser(String id);
+
+    public User findUserById(String id);
+
+    public void updateUser(User user);
 }

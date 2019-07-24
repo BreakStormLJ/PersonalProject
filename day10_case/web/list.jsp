@@ -61,7 +61,7 @@
                 <td>${user.qq}</td>
                 <td>${user.email}</td>
                 <td>
-                    <a class="btn btn-default btn-sm" href="update.jsp">修改</a>&nbsp;
+                    <a class="btn btn-default btn-sm" href="${pageContext.request.contextPath}/">修改</a>&nbsp;
                     <a class="btn btn-default btn-sm" href="javascript:deleteUser(${users.id})">删除</a>
                 </td>
             </tr>
