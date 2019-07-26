@@ -31,7 +31,7 @@
     <script type="text/javascript">
         function deleteUser(id) {
             if (confirm("您确定要删除吗？")) {
-                location.href = "${pageContext.request.contextPath}/delUserServlet?id" + id;
+                location.href = "${pageContext.request.contextPath}/delUserServlet?id=" + id;
             }
         }
     </script>
@@ -61,8 +61,8 @@
                 <td>${user.qq}</td>
                 <td>${user.email}</td>
                 <td>
-                    <a class="btn btn-default btn-sm" href="${pageContext.request.contextPath}/">修改</a>&nbsp;
-                    <a class="btn btn-default btn-sm" href="javascript:deleteUser(${users.id})">删除</a>
+                    <a class="btn btn-default btn-sm" href="${pageContext.request.contextPath}/findUserServlet?id=${user.id}">修改</a>&nbsp;
+                    <a class="btn btn-default btn-sm" href="javascript:deleteUser(${user.id})">删除</a>
                 </td>
             </tr>
 

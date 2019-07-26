@@ -49,4 +49,13 @@ public class UserDaoTest {
             System.out.println("注册失败！");
         }
     }
+
+    @Test
+    public void test04(){
+        Admin admin = new Admin();
+        admin.setUsername("zhangsan");
+        admin.setPassword("123456");
+        Admin loginUser = userDao.login(admin);
+        System.out.println(loginUser);
+    }
 }
