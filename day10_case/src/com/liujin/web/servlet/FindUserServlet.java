@@ -13,7 +13,7 @@ import java.io.IOException;
 
 @WebServlet("/findUserServlet")
 public class FindUserServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String id = request.getParameter("id");
 
         UserService service = (UserService) BeanFactory.getBean("userService");
@@ -24,7 +24,7 @@ public class FindUserServlet extends HttpServlet {
         request.getRequestDispatcher("/update.jsp").forward(request,response);
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         this.doPost(request,response);
     }
 }

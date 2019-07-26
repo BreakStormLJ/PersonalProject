@@ -3,4 +3,24 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+    <filter>
+        <filter-name>demo1</filter-name>
+        <filter-class>com.liujin.web.filter.LoginFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>demo1</filter-name>
+        <url-pattern>/*</url-pattern>
+        <!--<dispatcher>REQUEST</dispatcher>--><!--默认设置-->
+    </filter-mapping>
+
+    <filter>
+        <filter-name>demo2</filter-name>
+        <filter-class>com.liujin.web.filter.SensitiveWordsFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>demo2</filter-name>
+        <url-pattern>/*</url-pattern>
+        <!--<dispatcher>REQUEST</dispatcher>--><!--默认设置-->
+    </filter-mapping>
+
 </web-app>

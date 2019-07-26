@@ -12,7 +12,7 @@ import java.io.IOException;
 
 @WebServlet("/delUserServlet")
 public class DelUserServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //request.setCharacterEncoding("utf-8");
         String id = request.getParameter("id");
 
@@ -22,7 +22,7 @@ public class DelUserServlet extends HttpServlet {
         response.sendRedirect(request.getContextPath()+"/listServlet");
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         this.doPost(request,response);
     }
 }

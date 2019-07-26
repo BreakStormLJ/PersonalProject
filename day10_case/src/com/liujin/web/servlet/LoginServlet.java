@@ -20,8 +20,7 @@ import java.util.Map;
 
 @WebServlet("/loginServlet")
 public class LoginServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         //设置编码
         request.setCharacterEncoding("utf-8");
@@ -79,7 +78,7 @@ public class LoginServlet extends HttpServlet {
 
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         this.doPost(request,response);
     }
 }

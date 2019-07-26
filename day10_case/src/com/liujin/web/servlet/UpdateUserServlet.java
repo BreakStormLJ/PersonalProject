@@ -16,7 +16,7 @@ import java.util.Map;
 
 @WebServlet("/updateUserServlet")
 public class UpdateUserServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
         Map<String, String[]> map = request.getParameterMap();
         User user = new User();
@@ -34,7 +34,7 @@ public class UpdateUserServlet extends HttpServlet {
         response.sendRedirect(request.getContextPath()+"/listServlet");
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         this.doPost(request,response);
     }
 }
