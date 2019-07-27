@@ -10,6 +10,7 @@
     <filter-mapping>
         <filter-name>demo1</filter-name>
         <url-pattern>/*</url-pattern>
+        <!--<dispatcher>REQUEST</dispatcher>--><!--默认设置-->
     </filter-mapping>
 
     <filter>
@@ -19,6 +20,7 @@
     <filter-mapping>
         <filter-name>demo2</filter-name>
         <url-pattern>/*</url-pattern>
+        <!--<dispatcher>REQUEST</dispatcher>--><!--默认设置-->
     </filter-mapping>
 
 </web-app>
