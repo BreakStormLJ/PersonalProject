@@ -2,6 +2,7 @@ package com.liujin.web.filter;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
+import javax.servlet.http.HttpServletRequest;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -11,6 +12,8 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * 敏感词汇过滤器
@@ -39,21 +42,37 @@ public class SensitiveWordsFilter implements Filter {
             @Override
             public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
                 //增强getParameter方法
-                //判断是否getParameter方法
-                if (method.getName().equals("getParameter")) {
+                //判断是否getParameterMap\getParameterValues\getParameter方法
+                if (method.getName().equals("getParameterMap")) {
                     //增强返回值
                     //获取返回值
-                    String value = (String) method.invoke(req, args);
-                    if (value != null) {
-                        //foreach遍历list里面的元素
-                        for (String str:list){
-                            if (value.contains(str)){
-                                //字符串操作，目标字符串替换,第一个参数是正则
-                                value = value.replaceAll(str,"***");
+                    Map<String,String[]> map = (Map<String,String[]>)method.invoke(req,args);
+                    if (map!=null){
+                        Set<String> keys = map.keySet();
+                        for (String key : keys) {
+                            String[] values = map.get(key);
+                            for (int i = 0; i <values.length ; i++) {
+                                for (String str : list) {
+                                    if (values[i].contains(str)){
+                                        String s = values[i].replaceAll(str,"***");
+                                        values[i] = s;
+                                    }
+                                }
                             }
                         }
                     }
-                    return value;
+                    return map;
+                }
+                if (method.getName().equals("getParameter")){
+                    HttpServletRequest request = (HttpServletRequest) proxy;
+                    Map<String, String[]> map = request.getParameterMap();
+                    return map.get(args[0])[0];
+                }
+
+                if (method.getName().equals("getParameterValues")){
+                    HttpServletRequest request = (HttpServletRequest) proxy;
+                    Map<String, String[]> map = request.getParameterMap();
+                    return map.get(args[0]);
                 }
                 //return null;
                 return method.invoke(req, args);

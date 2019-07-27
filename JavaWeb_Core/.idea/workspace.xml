@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a7cc8fa-f66d-4af8-8996-77f276a8d9bb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../day10_case/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day10_case/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day10_case/out/artifacts/day10_case_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day10_case/out/artifacts/day10_case_war_exploded/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -175,9 +176,9 @@
     <option name="jreName" value="#JAVA_HOME" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="139" />
-    <option name="y" value="69" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="12" />
+    <option name="y" value="42" />
     <option name="width" value="1890" />
     <option name="height" value="960" />
   </component>
@@ -446,7 +447,7 @@
       <workItem from="1563450429623" duration="1467000" />
       <workItem from="1563452425674" duration="7681000" />
       <workItem from="1563497116823" duration="702000" />
-      <workItem from="1564222117223" duration="597000" />
+      <workItem from="1564222117223" duration="605000" />
     </task>
     <servers />
   </component>
@@ -459,10 +460,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16485000" />
+    <option name="totallyTimeSpent" value="16493000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49470899" visible="true" weight="0.26596606" />
