@@ -13,7 +13,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>3.8.1</version>
+            <version>4.12</version>
             <scope>test</scope>
         </dependency>
         <!--servlet-->
@@ -29,8 +29,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.26</version>
-            <scope>compile</scope>
+            <version>5.1.6</version>
         </dependency>
         <!--druid连接池-->
         <dependency>
@@ -114,10 +113,13 @@
     </dependencies>
 
     <build>
+        <!--maven插件-->
         <plugins>
+            <!--jdk编译插件-->
             <plugin>
             	<groupId>org.apache.maven.plugins</groupId>
             	<artifactId>maven-compiler-plugin</artifactId>
+                <version>2.1</version>
             	<configuration>
             		<target>1.8</target>
             		<source>1.8</source>
@@ -132,6 +134,7 @@
             		<port>8080</port>
             	</configuration>
             </plugin>-->
+            <!--tomcat插件-->
             <plugin>
             	<groupId>org.apache.tomcat.maven</groupId>
             	<artifactId>tomcat7-maven-plugin</artifactId>

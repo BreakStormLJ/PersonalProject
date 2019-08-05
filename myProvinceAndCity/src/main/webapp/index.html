@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    
+    <script src="js/jquery-3.3.1.min.js"></script>
+    
+    <script>
+        $(function () {
+           
+            //发送ajax请求，加载所有省份数据
+            $.get("provinceServlet",{},function (data) {
+                //[{"id":1,"name":"北京"},{"id":2,"name":"上海"},{"id":3,"name":"广州"},{"id":4,"name":"陕西"}]
+
+                //1.获取select
+                var province = $("#province");
+                province.html(" <option>--请选择省份--</option>");
+                //2.遍历json数组
+                $(data).each(function () {
+                    //3.创建<option>
+                    var option = "<option name='"+this.id+"'>"+this.name+"</option>";
+
+                    //4.调用select的append追加option
+                    province.append(option);
+                });
+
+
+            });
+
+            /*$("#province").change(function () {
+                //console.log(this.selectedIndex);
+                //console.log(this.value);
+                //console.log(this);
+            });*/
+            $("#province").change(function () {
+                var pid = this.selectedIndex;
+                $.get("cityServlet",{"pid":pid},function (data) {
+                    //[{"id":1,"name":"武汉","pid":1},{"id":2,"name":"荆门","pid":1},{"id":3,"name":"随州","pid":1},{"id":4,"name":"天门","pid":1}]
+                    //[{"id":5,"name":"长沙","pid":2},{"id":6,"name":"湘潭","pid":2},{"id":7,"name":"株洲","pid":2},{"id":8,"name":"杭州","pid":2}]
+                    //[{"id":9,"name":"宁波","pid":3},{"id":10,"name":"温州","pid":3},{"id":11,"name":"台州","pid":3},{"id":12,"name":"舟山","pid":3}]
+                    console.log(this);
+                    var city = $("#city");
+                    city.html(" <option>--请选择城市--</option>");
+                    //2.遍历json数组
+                    $(data).each(function () {
+                        //3.创建<option>
+                        var option = "<option name='"+this.id+"'>"+this.name+"</option>";
+
+                        //4.调用select的append追加option
+                        city.append(option);
+                    });
+                });
+            });
+            
+        });
+        
+
+    </script>
+    
+</head>
+<body>
+
+
+
+        <select id="province">
+            <option>--请选择省份--</option>
+
+        </select>
+        <select id="city">
+            <option>--请选择城市--</option>
+
+        </select>
+</body>
+</html>

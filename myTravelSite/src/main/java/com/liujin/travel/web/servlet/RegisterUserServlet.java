@@ -18,7 +18,7 @@ import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Map;
 
-@WebServlet("/registerUserServlet")
+@WebServlet("/registUserServlet")
 public class RegisterUserServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //验证码效验
@@ -38,6 +38,7 @@ public class RegisterUserServlet extends HttpServlet {
             //将info数据序列化为json
             ObjectMapper mapper = new ObjectMapper();
             String json = mapper.writeValueAsString(info);
+            response.setContentType("application/json;charset=utf-8");
             response.getWriter().write(json);
             return;
         }
@@ -60,6 +61,7 @@ public class RegisterUserServlet extends HttpServlet {
         String json = service.register(user);
 
         //4.响应结果,将json数据写回客户端
+        response.setContentType("application/json;charset=utf-8");
         response.getWriter().write(json);
 
 

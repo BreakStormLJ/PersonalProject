@@ -1,5 +1,6 @@
 package com.liujin.travel.util;
 
+import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 
 import javax.sql.DataSource;
@@ -20,17 +21,22 @@ import java.util.Properties;
  */
 public class JDBCUtils {
 	// 1.	声明静态数据源成员变量
-	private static DataSource ds;
+	private static DruidDataSource ds;
 
 	// 2. 创建连接池对象
 	static {
 		// 加载配置文件中的数据
-		InputStream is = JDBCUtils.class.getClassLoader().getResourceAsStream("/druid.properties");
+		InputStream is = JDBCUtils.class.getClassLoader().getResourceAsStream("druid.properties");
 		Properties pp = new Properties();
 		try {
 			pp.load(is);
 			// 创建连接池，使用配置文件中的参数
-			ds = DruidDataSourceFactory.createDataSource(pp);
+			//ds = DruidDataSourceFactory.createDataSource(pp);
+			ds = new DruidDataSource();
+			ds.setUsername(pp.getProperty("username"));
+			ds.setUrl(pp.getProperty("url"));
+			ds.setDriverClassName(pp.getProperty("driverClassName"));
+			ds.setPassword(pp.getProperty("password"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		} catch (Exception e) {
@@ -40,6 +46,7 @@ public class JDBCUtils {
 
 	// 3. 定义公有的得到数据源的方法
 	public static DataSource getDataSource() {
+
 		return ds;
 	}
 
@@ -53,19 +60,25 @@ public class JDBCUtils {
 		if (rs != null) {
 			try {
 				rs.close();
-			} catch (SQLException e) {}
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
 		}
 
 		if (stmt != null) {
 			try {
 				stmt.close();
-			} catch (SQLException e) {}
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
 		}
 
 		if (conn != null) {
 			try {
 				conn.close();
-			} catch (SQLException e) {}
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 

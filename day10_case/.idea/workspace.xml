@@ -6,7 +6,98 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07097fb9-770c-49de-b38c-224b649f6430" name="Default Changelist" comment="" />
+    <list default="true" id="07097fb9-770c-49de-b38c-224b649f6430" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../myDay13/.idea/artifacts/day13_ajax_json_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/.idea/dictionaries/Kevin_Liu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/day13_ajax&amp;json/day13_ajax&amp;json.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/day13_ajax&amp;json/src/com/liujin/dao/PersonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/day13_ajax&amp;json/src/com/liujin/dao/impl/PersonDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/day13_ajax&amp;json/src/com/liujin/domain/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/day13_ajax&amp;json/src/com/liujin/domain/Msg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/day13_ajax&amp;json/src/com/liujin/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/day13_ajax&amp;json/src/com/liujin/service/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/day13_ajax&amp;json/src/com/liujin/service/impl/PersonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/day13_ajax&amp;json/src/com/liujin/test/FastJsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/day13_ajax&amp;json/src/com/liujin/test/GsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/day13_ajax&amp;json/src/com/liujin/test/JacksonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/day13_ajax&amp;json/src/com/liujin/util/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/day13_ajax&amp;json/src/com/liujin/web/servlet/FindUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/day13_ajax&amp;json/src/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/day13_ajax&amp;json/web/07-regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/day13_ajax&amp;json/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/day13_ajax&amp;json/web/js/jquery-1.11.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/day13_ajax&amp;json/web/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/day13_ajax&amp;json/web/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myDay13/day13_ajax&amp;json/web/js/jquery-migrate-1.0.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/.idea/dictionaries/Kevin_Liu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/java/com/liujin/dao/CityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/java/com/liujin/dao/impl/CityDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/java/com/liujin/domain/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/java/com/liujin/domain/Province.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/java/com/liujin/service/CityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/java/com/liujin/service/impl/CityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/java/com/liujin/util/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/java/com/liujin/util/JedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/java/com/liujin/web/servlet/CityServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/java/com/liujin/web/servlet/ProvinceServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/resources/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/resources/jedis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/webapp/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/webapp/js/getParameter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/webapp/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/webapp/js/jquery-1.11.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/webapp/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/webapp/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/webapp/js/jquery-migrate-1.0.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/main/webapp/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myProvinceAndCity/src/test/java/CityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myTravelSite/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myTravelSite/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myTravelSite/src/main/java/com/liujin/travel/util/CookieUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myTravelSite/src/main/java/com/liujin/travel/web/filter/AutoLoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myTravelSite/src/main/java/com/liujin/travel/web/servlet/ExitServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myTravelSite/src/main/java/com/liujin/travel/web/servlet/FindUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myTravelSite/src/main/java/com/liujin/travel/web/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myTravelSite/src/main/webapp/js/jquery-1.11.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myTravelSite/src/main/webapp/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myTravelSite/src/main/webapp/js/jquery-migrate-1.0.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myTravelSite/src/test/java/com/liujin/test/TravelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/liujin/web/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liujin/web/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/src/main/java/com/liujin/travel/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/src/main/java/com/liujin/travel/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/src/main/java/com/liujin/travel/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/src/main/java/com/liujin/travel/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/src/main/java/com/liujin/travel/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/src/main/java/com/liujin/travel/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/src/main/java/com/liujin/travel/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/src/main/java/com/liujin/travel/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/src/main/java/com/liujin/travel/util/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/src/main/java/com/liujin/travel/util/JDBCUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/src/main/java/com/liujin/travel/web/servlet/RegisterUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/src/main/java/com/liujin/travel/web/servlet/RegisterUserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/src/main/webapp/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/src/main/webapp/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/src/main/webapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/src/main/webapp/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/src/main/webapp/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/target/myTravelSite-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/target/myTravelSite-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/target/myTravelSite-1.0-SNAPSHOT/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/target/myTravelSite-1.0-SNAPSHOT/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/target/myTravelSite-1.0-SNAPSHOT/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/target/myTravelSite-1.0-SNAPSHOT/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/target/myTravelSite-1.0-SNAPSHOT/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/target/myTravelSite-1.0-SNAPSHOT/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myTravelSite/target/tomcat/logs/access_log.2019-07-28" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,27 +110,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/DelUserServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/CheckCodeServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/TestServlet.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,7 +131,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/liujin/web/filter/SensitiveWordsFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
+            <state relative-caret-position="71">
               <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -73,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="272">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -91,17 +161,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
+            <state relative-caret-position="408">
               <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="57" />
+            <state relative-caret-position="683">
+              <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,10 +180,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/liujin/dao/impl/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/liujin/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/liujin/web/filter/LoginFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            <state relative-caret-position="244">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -158,7 +252,6 @@
         <option value="$PROJECT_DIR$/web/list.jsp" />
         <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/AddUserServlet.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/UpdateUserServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/ListServlet.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/FindUserServlet.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/DelUserServlet.java" />
@@ -169,6 +262,7 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/com/liujin/web/filter/SensitiveWordsFilter.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/TestServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/LoginServlet.java" />
       </list>
     </option>
   </component>
@@ -197,11 +291,11 @@
     <option name="jreName" value="#JAVA_HOME" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="40" />
-    <option name="y" value="43" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-21" />
+    <option name="y" value="18" />
     <option name="width" value="1890" />
-    <option name="height" value="873" />
+    <option name="height" value="960" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -209,6 +303,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,12 +401,17 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="day10_case" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day10_case" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -514,6 +615,10 @@
       <workItem from="1564101548510" duration="20958000" />
       <workItem from="1564244713018" duration="2499000" />
       <workItem from="1564320378500" duration="1112000" />
+      <workItem from="1564471272787" duration="614000" />
+      <workItem from="1564535567493" duration="890000" />
+      <workItem from="1564579017314" duration="602000" />
+      <workItem from="1564840321681" duration="3515000" />
     </task>
     <servers />
   </component>
@@ -541,7 +646,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89479000" />
+    <option name="totallyTimeSpent" value="95100000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -553,10 +658,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48818898" visible="true" weight="0.21018593" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48818898" visible="true" weight="0.22312045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -634,42 +739,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/liujin/web/filter/LoginFilter.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/liujin/web/filter/LoginFilter.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/liujin/web/filter/LoginFilter.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/liujin/web/filter/LoginFilter.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/liujin/web/filter/LoginFilter.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/css/bootstrap.css">
@@ -783,16 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/liujin/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/liujin/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -823,16 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="57" column="27" lean-forward="true" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/liujin/dao/impl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -925,10 +974,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/liujin/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/liujin/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/liujin/web/filter/SensitiveWordsFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
+        <state relative-caret-position="71">
           <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -937,39 +1030,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bean.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="272">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/liujin/web/filter/LoginFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="244">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>

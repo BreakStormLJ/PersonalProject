@@ -1,0 +1,10 @@
+com\liujin\util\JedisUtil.class
+com\liujin\web\servlet\CityServlet.class
+com\liujin\util\JDBCUtils.class
+com\liujin\domain\City.class
+com\liujin\service\impl\CityServiceImpl.class
+com\liujin\service\CityService.class
+com\liujin\dao\CityDao.class
+com\liujin\dao\impl\CityDaoImpl.class
+com\liujin\web\servlet\ProvinceServlet.class
+com\liujin\domain\Province.class

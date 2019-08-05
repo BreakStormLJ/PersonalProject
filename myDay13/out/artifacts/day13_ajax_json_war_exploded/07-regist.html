@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+
+    <script>
+        $(function () {
+            $("#username").blur(function () {
+                var username = this.value;
+                //发送异步请求，将用户填写的用户名携带到后台
+                // {"status":0,"msg":"xxx"}
+                $.get("/day13/findUserServlet",{"username":username},function (data) {
+                    if (data.status == 0){
+                        //不可用
+                        $("#s_username").html("<font color='red'>"+data.msg+"</font>");
+                    }else{
+                        //可用
+                        $("#s_username").html("<font color='green'>"+data.msg+"</font>");
+                    }
+                },"json");
+            });
+        });
+
+    </script>
+</head>
+<body>
+
+
+    <form>
+
+        <input type="text" id="username" name="username" placeholder="请输入用户名">
+        <span id="s_username"></span>
+        <br>
+        <input type="password" name="password" placeholder="请输入密码"><br>
+        <input type="submit" value="注册"><br>
+
+    </form>
+
+</body>
+</html>
