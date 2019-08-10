@@ -36,7 +36,7 @@ public class AutoLoginFilter implements Filter {
                 //获取用户名和密码 -- cookie
                 Cookie[] cookies = request.getCookies();
                 Cookie cookie = CookieUtil.findCookie(cookies, "autologin");
-                if (cookie != null) {
+                if (cookie != null&& cookie.getValue()!= "") {
                     //用户存入过，获取用户名和密码实现登录逻辑
                     String value = cookie.getValue();
                     String username = value.split("#")[0];

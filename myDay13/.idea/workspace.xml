@@ -6,42 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f883f15-d47c-40b7-97b9-3c3becf4e1ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day13_ajax_json_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Kevin_Liu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_ajax&amp;json/day13_ajax&amp;json.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_ajax&amp;json/src/com/liujin/dao/PersonDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_ajax&amp;json/src/com/liujin/dao/impl/PersonDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_ajax&amp;json/src/com/liujin/domain/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_ajax&amp;json/src/com/liujin/domain/Msg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_ajax&amp;json/src/com/liujin/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_ajax&amp;json/src/com/liujin/service/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_ajax&amp;json/src/com/liujin/service/impl/PersonServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_ajax&amp;json/src/com/liujin/test/FastJsonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_ajax&amp;json/src/com/liujin/test/GsonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_ajax&amp;json/src/com/liujin/test/JacksonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_ajax&amp;json/src/com/liujin/util/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_ajax&amp;json/src/com/liujin/web/servlet/FindUserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_ajax&amp;json/src/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_ajax&amp;json/web/07-regist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_ajax&amp;json/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_ajax&amp;json/web/js/jquery-1.11.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_ajax&amp;json/web/js/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_ajax&amp;json/web/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13_ajax&amp;json/web/js/jquery-migrate-1.0.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myTravelSite/src/main/webapp/js/jquery-1.11.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myTravelSite/src/main/webapp/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myTravelSite/src/main/webapp/js/jquery-migrate-1.0.0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day10_case/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day10_case/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day10_case/src/com/liujin/web/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day10_case/src/com/liujin/web/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myTravelSite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myTravelSite/src/main/webapp/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/src/main/webapp/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myTravelSite/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myTravelSite/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../myTravelSite/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="9f883f15-d47c-40b7-97b9-3c3becf4e1ba" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day13_ajax&amp;json/src/com/liujin/web/servlet/FindUserServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="170">
               <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,16 +41,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day13_ajax&amp;json/src/com/liujin/dao/impl/PersonDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
+            <state relative-caret-position="258">
               <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day13_ajax&amp;json/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -159,6 +129,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,8 +207,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -468,6 +438,7 @@
       <workItem from="1564391912268" duration="13884000" />
       <workItem from="1564578975050" duration="20000" />
       <workItem from="1564579004424" duration="4000" />
+      <workItem from="1565054536829" duration="11000" />
     </task>
     <servers />
   </component>
@@ -498,12 +469,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14137000" />
+    <option name="totallyTimeSpent" value="14148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="4" width="1260" height="640" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4980315" visible="true" weight="0.26955074" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4980315" visible="true" weight="0.2737105" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -692,7 +664,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day13_ajax&amp;json/src/com/liujin/web/servlet/FindUserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="170">
           <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -702,13 +674,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day13_ajax&amp;json/src/com/liujin/dao/impl/PersonDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
+        <state relative-caret-position="258">
           <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13_ajax&amp;json/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

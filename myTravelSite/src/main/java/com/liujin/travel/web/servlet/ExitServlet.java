@@ -17,8 +17,8 @@ public class ExitServlet extends HttpServlet {
         //清除浏览器持久化的cookie -- 回写一个同名的cookie,设置maxAge为0即可
         Cookie cookie = new Cookie("autologin",null);
 
-        cookie.setMaxAge(0);
-        cookie.setPath(request.getContextPath());
+        //cookie.setMaxAge(0);
+        //cookie.setPath(request.getContextPath());
 
         response.addCookie(cookie);
 
