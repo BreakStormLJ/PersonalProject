@@ -9,4 +9,6 @@ public interface UserService {
     public User login(User user);
 
     public String getCategoryJson() throws JsonProcessingException;
+
+    public boolean active(String code);
 }

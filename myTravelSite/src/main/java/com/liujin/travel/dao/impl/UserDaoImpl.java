@@ -56,5 +56,27 @@ public class UserDaoImpl implements UserDao {
         //return null;
     }
 
+    /**
+     *
+     * @param user
+     */
+    @Override
+    public void updateStatus(User user) {
+        String sql = "update tab_user set status = 'Y' , code = ? where uid = ?";
+        jdbcTemplate.update(sql,user.getCode(),user.getUid());
+    }
+
+    @Override
+    public User findByCode(String code) {
+        User user = null;
+        try {
+            String sql = "select  * from tab_user where code = ?";
+            user = jdbcTemplate.queryForObject(sql, new BeanPropertyRowMapper<User>(User.class), code);
+        } catch (DataAccessException e) {
+            e.printStackTrace();
+        }
+        return user;
+    }
+
 
 }

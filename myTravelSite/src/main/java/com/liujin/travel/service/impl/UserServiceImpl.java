@@ -23,6 +23,11 @@ import java.util.List;
 public class UserServiceImpl implements UserService {
     private UserDao userDao = new UserDaoImpl();
 
+    /**
+     * 注册功能
+     * @param user
+     * @return
+     */
     @Override
     public String register(User user) {
         ResultInfo info = new ResultInfo();
@@ -33,6 +38,7 @@ public class UserServiceImpl implements UserService {
             info.setFlag(false);
             info.setErrorMsg("用户名已存在！");
         } else {
+            //UUID工具类用于生成一个永不重复的值
             //保存用户信息
             //设置激活码，唯一字符串
             user.setCode(UuidUtil.getUuid());
@@ -42,7 +48,8 @@ public class UserServiceImpl implements UserService {
 
             if (save > 0) {
                 String content = "<a href='http://localhost:80/travel/activeUserServlet?code=" + user.getCode() + "'>点击激活【黑马旅游网】</a>";
-                MailUtils.sendMail(user.getEmail(), content, "激活邮件");
+                //MailUtils.sendMail(user.getEmail(), content, "激活邮件");
+                System.out.println("激活邮件地址："+content);
                 info.setFlag(true);
             } else {
                 info.setFlag(false);
@@ -61,11 +68,20 @@ public class UserServiceImpl implements UserService {
         return json;
     }
 
+    /**
+     * 登录功能
+     * @param user
+     * @return
+     */
     @Override
     public User login(User user) {
         return userDao.findUserByUsernameAndPassword(user.getUsername(), user.getPassword());
     }
 
+    /**
+     * 主页面导航栏数据
+     * @return
+     */
     @Override
     public String getCategoryJson() {
         Jedis jedis = null;
@@ -89,4 +105,22 @@ public class UserServiceImpl implements UserService {
         }
         return category_json;
     }
+
+    @Override
+    public boolean active(String code) {
+        //1.根据激活码查询用户对象
+        User user = userDao.findByCode(code);
+
+        if (user != null){
+            user.setStatus("Y");
+            user.setCode(null);
+            userDao.updateStatus(user);
+            return true;
+        }else {
+            return false;
+        }
+
+    }
+
+
 }

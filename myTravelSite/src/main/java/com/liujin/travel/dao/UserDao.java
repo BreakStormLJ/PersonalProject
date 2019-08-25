@@ -33,4 +33,17 @@ public interface UserDao {
      * @return
      */
     public List<Category> findAllCategory();
+
+    /**
+     * 修改指定用户激活状态
+     * @param user
+     */
+    public void updateStatus(User user);
+
+    /**
+     * 根据激活码查询用户对象
+     * @param code
+     * @return
+     */
+    public User findByCode(String code);
 }

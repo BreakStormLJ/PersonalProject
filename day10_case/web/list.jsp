@@ -41,6 +41,7 @@
     <h3 style="text-align: center">用户信息列表</h3>
     <table border="1" class="table table-bordered table-hover">
         <tr class="success">
+            <th><input type="checkbox" id="firstCb"></th>
             <th>编号</th>
             <th>姓名</th>
             <th>性别</th>
@@ -53,6 +54,7 @@
 
         <c:forEach items="${users}" var="user" varStatus="s">
             <tr>
+                <td><input type="checkbox" name="uid" value="${user.id}"></td>
                 <td>${s.count}</td>
                 <td>${user.name}</td>
                 <td>${user.gender}</td>
@@ -70,9 +72,11 @@
 
 
         <tr>
-            <td colspan="8" align="center"><a class="btn btn-primary" href="add.jsp">添加联系人</a></td>
+            <td colspan="9" align="center"><a class="btn btn-primary" href="add.jsp">添加联系人</a></td>
         </tr>
     </table>
+
+
 </div>
 </body>
 </html>
