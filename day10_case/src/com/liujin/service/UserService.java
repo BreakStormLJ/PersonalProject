@@ -17,4 +17,6 @@ public interface UserService {
     public User findUserById(String id);
 
     public void updateUser(User user);
+
+    public void delSelectedUser(String[] ids);
 }

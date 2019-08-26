@@ -9,6 +9,7 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @program: day10_case
@@ -80,4 +81,21 @@ public class UserDaoImpl implements UserDao {
         jdbcTemplate.update(sql, user.getName(), user.getGender(), user.getAge(), user.getAddress(), user.getQq(), user.getEmail(), user.getId());
 
     }
+
+    /**
+     * 查询总记录数
+     * @param condition
+     * @return
+     */
+    @Override
+    public int findTotalCount(Map<String, String[]> condition) {
+        return 0;
+    }
+
+    @Override
+    public List<User> findByPage(int start, int rows, Map<String, String[]> condition) {
+        return null;
+    }
+
+
 }
