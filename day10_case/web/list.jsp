@@ -162,38 +162,58 @@
         <nav aria-label="Page navigation">
             <ul class="pagination">
                 <c:if test="${pb.currentPage == 1}">
-                <li class="disabled">
-                    </c:if>
+                    <li class="disabled">
+                        <a href="javascript:void(0);" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                </c:if>
 
-                    <c:if test="${pb.currentPage != 1}">
-                <li>
-                    </c:if>
+                <c:if test="${pb.currentPage != 1}">
+                    <li>
+                        <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${pb.currentPage - 1}&rows=5" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                </c:if>
 
-
-                    <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${pb.currentPage - 1}" aria-label="Previous">
-                        <span aria-hidden="true">&laquo;</span>
-                    </a>
-                </li>
 
 
                 <c:forEach begin="1" end="${pb.totalPage}" var="i" >
 
 
                     <c:if test="${pb.currentPage == i}">
-                        <li class="active"><a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}">${i}</a></li>
+                        <li class="active"><a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=5">${i}</a></li>
                     </c:if>
                     <c:if test="${pb.currentPage != i}">
-                        <li><a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}">${i}</a></li>
+                        <li><a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=5">${i}</a></li>
                     </c:if>
 
                 </c:forEach>
 
 
-                <li>
-                    <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${pb.currentPage + 1}" aria-label="Next">
+                <%--<li>
+                    <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${pb.currentPage + 1}&rows=5" aria-label="Next">
                         <span aria-hidden="true">&raquo;</span>
                     </a>
-                </li>
+                </li>--%>
+                <%--当前是最后一页,后一页按钮不可点击--%>
+                <c:if test="${pb.currentPage == pb.totalPage}">
+                    <li class="disabled">
+                        <a href="javascript:void(0);" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </c:if>
+
+                <%--当前不是最后一页,后一页按钮可点击,并查询后一页数据--%>
+                <c:if test="${pb.currentPage != pb.totalPage}">
+                    <li>
+                        <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${pb.currentPage + 1}&rows=5" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </c:if>
                 <span style="font-size: 25px;margin-left: 5px;">
                     共${pb.totalCount}条记录，共${pb.totalPage}页
                 </span>

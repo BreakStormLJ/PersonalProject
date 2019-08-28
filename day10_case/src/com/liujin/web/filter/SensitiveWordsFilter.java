@@ -63,7 +63,7 @@ public class SensitiveWordsFilter implements Filter {
                     }
                     return map;
                 }
-                if (method.getName().equals("getParameter")){
+                /*if (method.getName().equals("getParameter")){
                     HttpServletRequest request = (HttpServletRequest) proxy;
                     Map<String, String[]> map = request.getParameterMap();
                     return map.get(args[0])[0];
@@ -73,7 +73,22 @@ public class SensitiveWordsFilter implements Filter {
                     HttpServletRequest request = (HttpServletRequest) proxy;
                     Map<String, String[]> map = request.getParameterMap();
                     return map.get(args[0]);
+                }*/
+                else if ("getParameterValues".equals(method.getName())){
+                    HttpServletRequest pro = (HttpServletRequest) proxy;
+                    Map<String, String[]> map = pro.getParameterMap();
+                    return map.get(args[0]);
+                }else if ("getParameter".equals(method.getName())){
+                    HttpServletRequest pro = (HttpServletRequest) proxy;
+                    Map<String, String[]> map = pro.getParameterMap();
+                    String[] values = map.get(args[0]);
+                    if (values!=null&&values.length>0){
+                        return values[0];
+                    }else {
+                        return null;
+                    }
                 }
+
                 //return null;
                 return method.invoke(req, args);
             }

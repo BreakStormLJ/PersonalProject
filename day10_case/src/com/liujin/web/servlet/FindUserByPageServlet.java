@@ -18,19 +18,26 @@ public class FindUserByPageServlet extends HttpServlet {
         String currentPage = request.getParameter("currentPage");//当前页码
         String rows = request.getParameter("rows");//每页显示条数
 
+        if (currentPage == null || "".equals(currentPage)) {
+            currentPage = "1";
+        }
+        if (rows == null || "".equals(rows)) {
+            rows = "5";
+        }
+
         //2.调用service查询
         UserServiceImpl service = new UserServiceImpl();
-        PageBean<User> pb = service.findUserByPage(currentPage,rows);
+        PageBean<User> pb = service.findUserByPage(currentPage, rows);
 
         System.out.println(pb);
         //3.将PageBean存入request域中
-        request.setAttribute("pb",pb);
+        request.setAttribute("pb", pb);
         //4.数据转发到List.jsp
-        request.getRequestDispatcher("/list.jsp").forward(request,response);
+        request.getRequestDispatcher("/list.jsp").forward(request, response);
 
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        this.doPost(request,response);
+        this.doPost(request, response);
     }
 }
