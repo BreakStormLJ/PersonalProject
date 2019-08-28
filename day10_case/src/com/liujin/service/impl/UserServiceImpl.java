@@ -90,6 +90,30 @@ public class UserServiceImpl implements UserService {
         int totalPage = totalCount % rows == 0 ? totalCount / rows : ((totalCount / rows) + 1);
         pb.setTotalPage(totalPage);
 
+        int beginPage = 0;
+        int endPage = 0;
+
+        if (totalPage < 5) {
+            beginPage = 1;
+            endPage = totalPage;
+        } else {
+            beginPage = currentPage - 2;
+            endPage = currentPage + 2;
+
+            if (beginPage <= 0) {
+                beginPage = 1;
+                endPage = 5;
+            }
+
+            if (endPage > totalPage) {
+                endPage = totalPage;
+                beginPage = endPage - 4;
+            }
+        }
+
+        pb.setBeginPage(beginPage);
+        pb.setEndPage(endPage);
+
         return pb;
 
     }

@@ -179,7 +179,7 @@
 
 
 
-                <c:forEach begin="1" end="${pb.totalPage}" var="i" >
+                <%--<c:forEach begin="1" end="${pb.totalPage}" var="i" >
 
 
                     <c:if test="${pb.currentPage == i}">
@@ -189,6 +189,20 @@
                         <li><a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=5">${i}</a></li>
                     </c:if>
 
+                </c:forEach>--%>
+                <%--如果当前页是第一页和第二页,分页条显示:1,2,3--%>
+                <c:forEach begin="${pb.beginPage}" end="${pb.endPage}" var="i">
+                    <%--遍历到的页码是当前页,深色显示,并且不可点击--%>
+                    <c:if test="${pb.currentPage ==i}">
+                        <li class="active">
+                            <a href="javascript:void(0);">${i}</a>
+                        </li>
+                    </c:if>
+
+                    <%--遍历到的页码不是当前页,点击查询该页码对应的数据--%>
+                    <c:if test="${pb.currentPage!=i}">
+                        <li><a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=5">${i}</a></li>
+                    </c:if>
                 </c:forEach>
 
 

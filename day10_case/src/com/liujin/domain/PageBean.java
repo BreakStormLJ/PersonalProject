@@ -6,26 +6,32 @@ import java.util.List;
 /**
  * 分页对象
  */
-public class PageBean<T> implements Serializable {
-    private int totalCount; // 总记录数
-    private int totalPage ; // 总页码
-    private List<T> list ; // 每页的数据
-    private int currentPage ; //当前页码
-    private int rows;//每页显示的记录数
 
-    public int getTotalCount() {
+public class PageBean<T> implements Serializable {
+    private Integer totalCount; // 总记录数
+    private Integer totalPage ; // 总页码
+    private List<T> list ; // 每页的数据
+    private Integer currentPage ; //当前页码
+    private Integer rows;//每页显示的记录数
+    private Integer beginPage; //起始页
+    private Integer endPage; //尾页
+
+    public PageBean() {
+    }
+
+    public Integer getTotalCount() {
         return totalCount;
     }
 
-    public void setTotalCount(int totalCount) {
+    public void setTotalCount(Integer totalCount) {
         this.totalCount = totalCount;
     }
 
-    public int getTotalPage() {
+    public Integer getTotalPage() {
         return totalPage;
     }
 
-    public void setTotalPage(int totalPage) {
+    public void setTotalPage(Integer totalPage) {
         this.totalPage = totalPage;
     }
 
@@ -37,20 +43,36 @@ public class PageBean<T> implements Serializable {
         this.list = list;
     }
 
-    public int getCurrentPage() {
+    public Integer getCurrentPage() {
         return currentPage;
     }
 
-    public void setCurrentPage(int currentPage) {
+    public void setCurrentPage(Integer currentPage) {
         this.currentPage = currentPage;
     }
 
-    public int getRows() {
+    public Integer getRows() {
         return rows;
     }
 
-    public void setRows(int rows) {
+    public void setRows(Integer rows) {
         this.rows = rows;
+    }
+
+    public Integer getBeginPage() {
+        return beginPage;
+    }
+
+    public void setBeginPage(Integer beginPage) {
+        this.beginPage = beginPage;
+    }
+
+    public Integer getEndPage() {
+        return endPage;
+    }
+
+    public void setEndPage(Integer endPage) {
+        this.endPage = endPage;
     }
 
     @Override
@@ -61,6 +83,8 @@ public class PageBean<T> implements Serializable {
                 ", list=" + list +
                 ", currentPage=" + currentPage +
                 ", rows=" + rows +
+                ", beginPage=" + beginPage +
+                ", endPage=" + endPage +
                 '}';
     }
 }
