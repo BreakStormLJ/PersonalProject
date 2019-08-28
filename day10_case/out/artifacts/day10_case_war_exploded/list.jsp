@@ -120,8 +120,6 @@
             <input type="submit" value="删除选中1111" class="btn btn-primary">
         </div>
 
-        <input type="submit" value="提交" class="btn btn-primary">
-
         <table border="1" class="table table-bordered table-hover">
             <tr class="success">
                 <th><input type="checkbox" id="firstCb"></th>
@@ -135,7 +133,7 @@
                 <th>操作</th>
             </tr>
 
-            <c:forEach items="${users}" var="user" varStatus="s">
+            <c:forEach items="${pb.list}" var="user" varStatus="s">
                 <tr>
                     <td><input type="checkbox" name="uid" value="${user.id}"></td>
                     <td>${s.count}</td>

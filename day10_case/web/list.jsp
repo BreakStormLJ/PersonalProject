@@ -133,7 +133,7 @@
                 <th>操作</th>
             </tr>
 
-            <c:forEach items="${users}" var="user" varStatus="s">
+            <c:forEach items="${pb.list}" var="user" varStatus="s">
                 <tr>
                     <td><input type="checkbox" name="uid" value="${user.id}"></td>
                     <td>${s.count}</td>

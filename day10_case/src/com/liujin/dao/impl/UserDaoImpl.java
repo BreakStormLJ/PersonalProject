@@ -9,7 +9,6 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import java.util.List;
-import java.util.Map;
 
 /**
  * @program: day10_case
@@ -84,17 +83,27 @@ public class UserDaoImpl implements UserDao {
 
     /**
      * 查询总记录数
-     * @param condition
      * @return
      */
     @Override
-    public int findTotalCount(Map<String, String[]> condition) {
-        return 0;
+    public int findTotalCount() {
+        String sql = "select count(*) from user";
+
+        return jdbcTemplate.queryForObject(sql,Integer.class);
+
     }
 
+    /**
+     * 分页查询用户数据
+     * @param start
+     * @param rows
+     * @return
+     */
     @Override
-    public List<User> findByPage(int start, int rows, Map<String, String[]> condition) {
-        return null;
+    public List<User> findByPage(int start, int rows) {
+        String sql = "select * from user limit ?,?";
+
+        return jdbcTemplate.query(sql,new BeanPropertyRowMapper<User>(User.class),start,rows);
     }
 
 

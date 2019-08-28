@@ -1,5 +1,9 @@
 package com.liujin.web.servlet;
 
+import com.liujin.domain.PageBean;
+import com.liujin.domain.User;
+import com.liujin.service.impl.UserServiceImpl;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -10,6 +14,19 @@ import java.io.IOException;
 @WebServlet("/findUserByPageServlet")
 public class FindUserByPageServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        //1.获取参数
+        String currentPage = request.getParameter("currentPage");//当前页码
+        String rows = request.getParameter("rows");//每页显示条数
+
+        //2.调用service查询
+        UserServiceImpl service = new UserServiceImpl();
+        PageBean<User> pb = service.findUserByPage(currentPage,rows);
+
+        System.out.println(pb);
+        //3.将PageBean存入request域中
+        request.setAttribute("pb",pb);
+        //4.数据转发到List.jsp
+        request.getRequestDispatcher("/list.jsp").forward(request,response);
 
     }
 
