@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Map;
 
 @WebServlet("/findUserByPageServlet")
 public class FindUserByPageServlet extends HttpServlet {
@@ -25,9 +26,12 @@ public class FindUserByPageServlet extends HttpServlet {
             rows = "5";
         }
 
+        //获取条件查询参数
+        Map<String, String[]> condition = request.getParameterMap();
+
         //2.调用service查询
         UserServiceImpl service = new UserServiceImpl();
-        PageBean<User> pb = service.findUserByPage(currentPage, rows);
+        PageBean<User> pb = service.findUserByPage(currentPage, rows,condition);
 
         System.out.println(pb);
         //3.将PageBean存入request域中

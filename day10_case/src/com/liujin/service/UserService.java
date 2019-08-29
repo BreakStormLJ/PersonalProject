@@ -5,6 +5,7 @@ import com.liujin.domain.PageBean;
 import com.liujin.domain.User;
 
 import java.util.List;
+import java.util.Map;
 
 public interface UserService {
 
@@ -55,9 +56,11 @@ public interface UserService {
 
     /**
      * 分页查询所有用户
-     * @param currentPage
-     * @param rows
+     * 分页条件查询所有用户
+     * @param _currentPage
+     * @param _rows
+     * @param condition
      * @return
      */
-    PageBean<User> findUserByPage(String currentPage, String rows);
+    PageBean<User> findUserByPage(String _currentPage, String _rows, Map<String, String[]> condition);
 }

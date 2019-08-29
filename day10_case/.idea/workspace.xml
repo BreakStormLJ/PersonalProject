@@ -7,9 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07097fb9-770c-49de-b38c-224b649f6430" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/liujin/domain/PageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liujin/domain/PageBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/liujin/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liujin/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/liujin/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liujin/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/liujin/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liujin/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/liujin/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liujin/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/liujin/test/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liujin/test/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/liujin/web/servlet/FindUserByPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liujin/web/servlet/FindUserByPageServlet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +27,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/liujin/dao/impl/UserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-386">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="177">
+              <caret line="105" column="43" lean-forward="true" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/liujin/test/UserDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/liujin/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="92" column="21" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="21" />
+            <state relative-caret-position="389">
+              <caret line="87" column="56" selection-start-line="87" selection-start-column="56" selection-end-line="87" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#479#480#0" expanded="true" />
@@ -60,68 +76,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/FindUserByPageServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/com/liujin/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/DelUserServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/liujin/domain/PageBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="326">
+              <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
-                <element signature="e#830#831#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-                <element signature="e#903#904#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-                <element signature="e#976#977#0" expanded="true" />
-                <element signature="e#1031#1032#0" expanded="true" />
-                <element signature="e#1077#1078#0" expanded="true" />
-                <element signature="e#1109#1110#0" expanded="true" />
-                <element signature="e#1136#1137#0" expanded="true" />
-                <element signature="e#1177#1178#0" expanded="true" />
-                <element signature="e#1209#1210#0" expanded="true" />
-                <element signature="e#1246#1247#0" expanded="true" />
-                <element signature="e#1278#1279#0" expanded="true" />
-                <element signature="e#1329#1330#0" expanded="true" />
-                <element signature="e#1371#1372#0" expanded="true" />
-                <element signature="e#1406#1407#0" expanded="true" />
-                <element signature="e#1436#1437#0" expanded="true" />
-                <element signature="e#1483#1484#0" expanded="true" />
-                <element signature="e#1521#1522#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/FindUserByPageServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="33" column="65" lean-forward="true" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="181" column="40" lean-forward="true" selection-start-line="181" selection-start-column="40" selection-end-line="181" selection-end-column="40" />
+            <state relative-caret-position="335">
+              <caret line="103" column="48" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#ul#0;n#nav#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -166,10 +145,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/FindUserServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/com/liujin/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="332">
+              <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -205,7 +187,6 @@
         <option value="$PROJECT_DIR$/web/add.html" />
         <option value="$PROJECT_DIR$/web/add.jsp" />
         <option value="$PROJECT_DIR$/web/update.jsp" />
-        <option value="$PROJECT_DIR$/src/com/liujin/test/UserDaoTest.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/AddUserServlet.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/UpdateUserServlet.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/ListServlet.java" />
@@ -220,15 +201,16 @@
         <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/delSelectedServlet.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/DelSelectedServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/liujin/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/com/liujin/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/com/liujin/dao/impl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/FindUserByPageServlet.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/web/filter/SensitiveWordsFilter.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/domain/PageBean.java" />
-        <option value="$PROJECT_DIR$/src/com/liujin/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/web/list.jsp" />
+        <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/FindUserByPageServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/liujin/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/com/liujin/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/liujin/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/com/liujin/test/UserDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/com/liujin/dao/impl/UserDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -257,9 +239,9 @@
     <option name="jreName" value="#JAVA_HOME" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="25" />
-    <option name="y" value="4" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="543" />
+    <option name="y" value="34" />
     <option name="width" value="1884" />
     <option name="height" value="1026" />
   </component>
@@ -483,7 +465,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.31">
+  <component name="RunManager" selected="JUnit.UserDaoTest.test05">
     <configuration name="UserDaoTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day10_case" />
       <extension name="coverage">
@@ -527,6 +509,22 @@
       <option name="PACKAGE_NAME" value="com.liujin.test" />
       <option name="MAIN_CLASS_NAME" value="com.liujin.test.UserDaoTest" />
       <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day10_case" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liujin.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.liujin.test" />
+      <option name="MAIN_CLASS_NAME" value="com.liujin.test.UserDaoTest" />
+      <option name="METHOD_NAME" value="test05" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -611,9 +609,11 @@
       <item itemvalue="JUnit.UserDaoTest.test02" />
       <item itemvalue="JUnit.UserDaoTest.test03" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
+      <item itemvalue="JUnit.UserDaoTest.test05" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserDaoTest.test05" />
         <item itemvalue="JUnit.UserDaoTest.test03" />
         <item itemvalue="JUnit.UserDaoTest.test02" />
         <item itemvalue="JUnit.UserDaoTest.test01" />
@@ -654,17 +654,11 @@
       <workItem from="1566803512771" duration="2109000" />
       <workItem from="1566821432050" duration="11633000" />
       <workItem from="1566893624904" duration="1514000" />
-      <workItem from="1566956928592" duration="26584000" />
+      <workItem from="1566956928592" duration="33266000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserDaoTest_test01 - 2019.07.23 at 15h 17m 55s.xml">
-      <configuration name="UserDaoTest.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest_test01 - 2019.07.23 at 15h 20m 04s.xml">
-      <configuration name="UserDaoTest.test01" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserDaoTest_test02 - 2019.07.24 at 10h 40m 59s.xml">
       <configuration name="UserDaoTest.test02" configurationId="JUnit" />
     </history-entry>
@@ -680,9 +674,24 @@
     <history-entry file="UserDaoTest_test03 - 2019.07.25 at 11h 52m 05s.xml">
       <configuration name="UserDaoTest.test03" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserDaoTest_test05 - 2019.08.29 at 17h 29m 05s.xml">
+      <configuration name="UserDaoTest.test05" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_test05 - 2019.08.29 at 17h 32m 31s.xml">
+      <configuration name="UserDaoTest.test05" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_test05 - 2019.08.29 at 17h 33m 31s.xml">
+      <configuration name="UserDaoTest.test05" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_test05 - 2019.08.29 at 17h 36m 27s.xml">
+      <configuration name="UserDaoTest.test05" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_test05 - 2019.08.29 at 17h 37m 19s.xml">
+      <configuration name="UserDaoTest.test05" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147754000" />
+    <option name="totallyTimeSpent" value="154436000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -694,10 +703,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="17" y="3" width="1256" height="684" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48464164" visible="true" weight="0.24123539" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48464164" visible="true" weight="0.22958772" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -708,7 +717,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32677165" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.47602132" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41847825" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41740674" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
@@ -812,6 +821,48 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/liujin/dao/impl/UserDaoImpl.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/liujin/dao/impl/UserDaoImpl.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/liujin/dao/impl/UserDaoImpl.java</url>
+          <line>102</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/liujin/dao/impl/UserDaoImpl.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/liujin/dao/impl/UserDaoImpl.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/liujin/dao/impl/UserDaoImpl.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -907,16 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/liujin/test/UserDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/update.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -994,26 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3230">
           <caret line="208" selection-start-line="208" selection-end-line="208" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/liujin/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="59" column="14" lean-forward="true" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/liujin/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="60" column="18" lean-forward="true" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1103,13 +1124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/FindUserByPageServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/DelUserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1147,20 +1161,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/liujin/dao/impl/UserDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/liujin/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-386">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="326">
+          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/liujin/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="103" column="48" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#ul#0;n#nav#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/liujin/test/UserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/FindUserByPageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="33" column="65" lean-forward="true" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/liujin/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="92" column="21" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="21" />
+        <state relative-caret-position="389">
+          <caret line="87" column="56" selection-start-line="87" selection-start-column="56" selection-end-line="87" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#479#480#0" expanded="true" />
@@ -1179,12 +1230,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/list.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/liujin/dao/impl/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="181" column="40" lean-forward="true" selection-start-line="181" selection-start-column="40" selection-end-line="181" selection-end-column="40" />
+        <state relative-caret-position="177">
+          <caret line="105" column="43" lean-forward="true" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#ul#0;n#nav#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

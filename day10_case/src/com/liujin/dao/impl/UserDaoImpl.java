@@ -8,7 +8,7 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-import java.util.List;
+import java.util.*;
 
 /**
  * @program: day10_case
@@ -84,12 +84,37 @@ public class UserDaoImpl implements UserDao {
     /**
      * 查询总记录数
      * @return
+     * @param condition
      */
     @Override
-    public int findTotalCount() {
-        String sql = "select count(*) from user";
+    public int findTotalCount(Map<String, String[]> condition) {
+        //1.定义模板初始化sql
+        //String sql = "select count(*) from user";
+        String sql = "select count(*) from user where 1=1";
+        StringBuilder sb = new StringBuilder(sql);
+        //2.遍历map
+        Set<String> keys = condition.keySet();
 
-        return jdbcTemplate.queryForObject(sql,Integer.class);
+        //定义参数的集合,用来装需要添加到sql语句中的条件value
+        ArrayList<Object> params = new ArrayList<>();
+
+        for (String key : keys) {
+            //获取value
+            String value = condition.get(key)[0];
+            //判断value是否有值
+            if (value != null && !"".equals(value)){
+                //sb.append(" and name like ? ");
+                sb.append(" and "+ key +" like ? ");
+                params.add(value); // ?条件的值
+            }
+
+    }
+        System.out.println(sb.toString());
+        System.out.println(params);
+
+        //末尾接一个可变参,可变参本质上是一个数组
+        //return jdbcTemplate.queryForObject(sql,Integer.class);
+        return jdbcTemplate.queryForObject(sb.toString(),Integer.class,params.toArray());
 
     }
 
@@ -97,10 +122,11 @@ public class UserDaoImpl implements UserDao {
      * 分页查询用户数据
      * @param start
      * @param rows
+     * @param condition
      * @return
      */
     @Override
-    public List<User> findByPage(int start, int rows) {
+    public List<User> findByPage(int start, int rows, Map<String, String[]> condition) {
         String sql = "select * from user limit ?,?";
 
         return jdbcTemplate.query(sql,new BeanPropertyRowMapper<User>(User.class),start,rows);

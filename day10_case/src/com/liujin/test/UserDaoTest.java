@@ -6,7 +6,9 @@ import com.liujin.domain.Admin;
 import com.liujin.domain.User;
 import org.junit.Test;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @program: day10_case
@@ -57,5 +59,20 @@ public class UserDaoTest {
         admin.setPassword("123456");
         Admin loginUser = userDao.login(admin);
         System.out.println(loginUser);
+    }
+
+    @Test
+    public void test05(){
+        String[] a = {"张三"};
+        String[] b = {"广东"};
+
+
+        Map<String, String[]> condition = new HashMap<>();
+        condition.put("name",a);
+        condition.put("address",b);
+
+        int totalCount = userDao.findTotalCount(condition);
+
+        System.out.println(totalCount);
     }
 }

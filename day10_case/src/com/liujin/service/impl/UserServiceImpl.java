@@ -8,6 +8,7 @@ import com.liujin.domain.User;
 import com.liujin.service.UserService;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @program: day10_case
@@ -61,10 +62,11 @@ public class UserServiceImpl implements UserService {
      *
      * @param _currentPage
      * @param _rows
+     * @param condition
      * @return
      */
     @Override
-    public PageBean<User> findUserByPage(String _currentPage, String _rows) {
+    public PageBean<User> findUserByPage(String _currentPage, String _rows, Map<String, String[]> condition) {
 
         int currentPage = Integer.parseInt(_currentPage);
         int rows = Integer.parseInt(_rows);
@@ -77,13 +79,13 @@ public class UserServiceImpl implements UserService {
         pb.setRows(rows);
 
         //3.调用dao查询总记录数
-        int totalCount = userDao.findTotalCount();
+        int totalCount = userDao.findTotalCount(condition);
         pb.setTotalCount(totalCount);
 
         //4.调用dao查询list集合
         //计算开始的记录索引
         int start = (currentPage - 1) * rows;
-        List<User> list = userDao.findByPage(start, rows);
+        List<User> list = userDao.findByPage(start, rows, condition);
         pb.setList(list);
 
         //计算总页码
