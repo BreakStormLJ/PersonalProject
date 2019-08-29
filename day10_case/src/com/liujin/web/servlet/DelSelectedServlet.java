@@ -19,7 +19,7 @@ public class DelSelectedServlet extends HttpServlet {
         service.delSelectedUser(ids);
 
         //重定向跳转查询所有listServlet
-        response.sendRedirect(request.getContextPath()+"/listServlet");
+        response.sendRedirect(request.getContextPath()+"/findUserByPageServlet");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

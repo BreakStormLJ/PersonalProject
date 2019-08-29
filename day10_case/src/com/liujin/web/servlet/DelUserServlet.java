@@ -19,7 +19,7 @@ public class DelUserServlet extends HttpServlet {
         UserService service = (UserService) BeanFactory.getBean("userService");
         service.delUser(id);
 
-        response.sendRedirect(request.getContextPath()+"/listServlet");
+        response.sendRedirect(request.getContextPath()+"/findUserByPageServlet");
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

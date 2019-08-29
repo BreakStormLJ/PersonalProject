@@ -34,7 +34,7 @@ public class AddUserServlet extends HttpServlet {
 
         if (i>0){
             //添加成功，重定向，跳转到listServlet
-            response.sendRedirect(request.getContextPath()+"/listServlet");
+            response.sendRedirect(request.getContextPath()+"/findUserByPageServlet");
         }else {
             //添加失败，数据回写
             request.setAttribute("user",user);

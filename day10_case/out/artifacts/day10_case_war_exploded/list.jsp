@@ -171,7 +171,7 @@
 
                 <c:if test="${pb.currentPage != 1}">
                     <li>
-                        <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${pb.currentPage - 1}&rows=5" aria-label="Previous">
+                        <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${pb.currentPage - 1}&rows=5&name=${condition.name[0]}&address=${condition.address[0]}&email=${condition.email[0]}" aria-label="Previous">
                             <span aria-hidden="true">&laquo;</span>
                         </a>
                     </li>
@@ -201,7 +201,7 @@
 
                     <%--遍历到的页码不是当前页,点击查询该页码对应的数据--%>
                     <c:if test="${pb.currentPage!=i}">
-                        <li><a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=5">${i}</a></li>
+                        <li><a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=5&name=${condition.name[0]}&address=${condition.address[0]}&email=${condition.email[0]}">${i}</a></li>
                     </c:if>
                 </c:forEach>
 
@@ -223,7 +223,7 @@
                 <%--当前不是最后一页,后一页按钮可点击,并查询后一页数据--%>
                 <c:if test="${pb.currentPage != pb.totalPage}">
                     <li>
-                        <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${pb.currentPage + 1}&rows=5" aria-label="Next">
+                        <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${pb.currentPage + 1}&rows=5&name=${condition.name[0]}&address=${condition.address[0]}&email=${condition.email[0]}" aria-label="Next">
                             <span aria-hidden="true">&raquo;</span>
                         </a>
                     </li>
