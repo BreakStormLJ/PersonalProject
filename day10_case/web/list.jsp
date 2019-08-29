@@ -97,16 +97,16 @@
         <form class="form-inline" action="${pageContext.request.contextPath}/findUserByPageServlet" method="post">
             <div class="form-group">
                 <label for="exampleInputName2">姓名</label>
-                <input type="text" name="name" value="${condition.name[0]}" class="form-control" id="exampleInputName2" >
+                <input type="text" class="form-control" id="exampleInputName2" >
             </div>
             <div class="form-group">
                 <label for="exampleInputName3">籍贯</label>
-                <input type="text" name="address" value="${condition.address[0]}" class="form-control" id="exampleInputName3" >
+                <input type="text" class="form-control" id="exampleInputName3" >
             </div>
 
             <div class="form-group">
                 <label for="exampleInputEmail2">邮箱</label>
-                <input type="text" name="email" value="${condition.email[0]}" class="form-control" id="exampleInputEmail2"  >
+                <input type="email" class="form-control" id="exampleInputEmail2"  >
             </div>
             <button type="submit" class="btn btn-default">查询</button>
         </form>
