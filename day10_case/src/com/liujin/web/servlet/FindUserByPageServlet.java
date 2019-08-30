@@ -39,6 +39,8 @@ public class FindUserByPageServlet extends HttpServlet {
 
         //3.将PageBean存入request域中
         request.setAttribute("pb", pb);
+
+        //回写用户输入的查询条件
         request.setAttribute("condition",condition);
 
         //4.数据转发到List.jsp

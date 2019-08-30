@@ -8,7 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="07097fb9-770c-49de-b38c-224b649f6430" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/liujin/web/servlet/FindUserByPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liujin/web/servlet/FindUserByPageServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/list.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,20 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/DelUserServlet.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/FindUserByPageServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/FindUserServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="386">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -43,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/ListServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="255">
               <caret line="15" column="25" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -55,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
+            <state relative-caret-position="1020">
               <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -85,17 +77,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/db.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+            <state relative-caret-position="884">
+              <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bean.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="113" column="56" selection-start-line="113" selection-start-column="56" selection-end-line="113" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -103,7 +104,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/AddUserServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="697">
               <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -169,14 +170,14 @@
         <option value="$PROJECT_DIR$/src/com/liujin/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/test/UserDaoTest.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/dao/impl/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/FindUserByPageServlet.java" />
-        <option value="$PROJECT_DIR$/web/list.jsp" />
         <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/DelSelectedServlet.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/AddUserServlet.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/DelUserServlet.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/UpdateUserServlet.java" />
         <option value="$PROJECT_DIR$/src/db.sql" />
         <option value="$PROJECT_DIR$/src/bean.properties" />
+        <option value="$PROJECT_DIR$/web/list.jsp" />
+        <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/FindUserByPageServlet.java" />
       </list>
     </option>
   </component>
@@ -206,8 +207,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="46" />
-    <option name="y" value="4" />
+    <option name="x" value="45" />
+    <option name="y" value="3" />
     <option name="width" value="1884" />
     <option name="height" value="1026" />
   </component>
@@ -217,7 +218,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -230,6 +230,36 @@
               <item name="day10_case" type="b2602c69:ProjectViewProjectNode" />
               <item name="day10_case" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day10_case" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day10_case" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day10_case" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day10_case" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="liujin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day10_case" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day10_case" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="liujin" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day10_case" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day10_case" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="liujin" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day10_case" type="b2602c69:ProjectViewProjectNode" />
@@ -289,6 +319,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -526,6 +557,7 @@
       <workItem from="1566956928592" duration="38175000" />
       <workItem from="1567094354274" duration="6064000" />
       <workItem from="1567135269307" duration="2496000" />
+      <workItem from="1567152360347" duration="3386000" />
     </task>
     <servers />
   </component>
@@ -562,7 +594,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167905000" />
+    <option name="totallyTimeSpent" value="171291000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -574,10 +606,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="31" y="3" width="1256" height="684" extended-state="0" />
+    <frame x="30" y="2" width="1256" height="684" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48464164" visible="true" weight="0.24123539" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48464164" visible="true" weight="0.24540901" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -958,23 +990,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="119" column="45" selection-start-line="119" selection-start-column="45" selection-end-line="119" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#ul#0;n#nav#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/FindUserByPageServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/DelSelectedServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1001,7 +1016,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/ListServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="255">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1011,7 +1026,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
+        <state relative-caret-position="1020">
           <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1026,9 +1041,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/UpdateUserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/AddUserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="697">
           <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1043,24 +1072,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/UpdateUserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bean.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="113" column="56" selection-start-line="113" selection-start-column="56" selection-end-line="113" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/FindUserByPageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
