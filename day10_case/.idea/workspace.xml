@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07097fb9-770c-49de-b38c-224b649f6430" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/db.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,18 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/DelSelectedServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="21" column="78" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/liujin/web/servlet/DelUserServlet.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -94,11 +82,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/db.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="201">
               <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bean.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -147,7 +144,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/liujin/utils/JDBCUtils.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/bean.properties" />
         <option value="$PROJECT_DIR$/src/com/liujin/utils/BeanFactory.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/CheckCodeServlet.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/domain/Admin.java" />
@@ -180,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/DelUserServlet.java" />
         <option value="$PROJECT_DIR$/src/com/liujin/web/servlet/UpdateUserServlet.java" />
         <option value="$PROJECT_DIR$/src/db.sql" />
+        <option value="$PROJECT_DIR$/src/bean.properties" />
       </list>
     </option>
   </component>
@@ -209,7 +206,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
+    <option name="x" value="46" />
+    <option name="y" value="4" />
     <option name="width" value="1884" />
     <option name="height" value="1026" />
   </component>
@@ -527,7 +525,7 @@
       <workItem from="1566893624904" duration="1514000" />
       <workItem from="1566956928592" duration="38175000" />
       <workItem from="1567094354274" duration="6064000" />
-      <workItem from="1567135269307" duration="1216000" />
+      <workItem from="1567135269307" duration="2496000" />
     </task>
     <servers />
   </component>
@@ -564,7 +562,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166625000" />
+    <option name="totallyTimeSpent" value="167905000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -576,7 +574,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="0" width="1256" height="684" extended-state="0" />
+    <frame x="31" y="3" width="1256" height="684" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48464164" visible="true" weight="0.24123539" />
@@ -793,13 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bean.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -1063,6 +1054,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
